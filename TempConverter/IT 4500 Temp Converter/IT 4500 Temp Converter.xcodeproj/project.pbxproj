@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC86443619F6D65500853FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86443519F6D65500853FB2 /* AppDelegate.swift */; };
+		BC86443819F6D65500853FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86443719F6D65500853FB2 /* ViewController.swift */; };
+		BC86443B19F6D65500853FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86443919F6D65500853FB2 /* Main.storyboard */; };
+		BC86443D19F6D65500853FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC86443C19F6D65500853FB2 /* Images.xcassets */; };
+		BC86444019F6D65500853FB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC86443E19F6D65500853FB2 /* LaunchScreen.xib */; };
+		BC86444C19F6D65500853FB2 /* IT_4500_Temp_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86444B19F6D65500853FB2 /* IT_4500_Temp_ConverterTests.swift */; };
+		BC86449019F978A600853FB2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC86448F19F978A600853FB2 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC86444619F6D65500853FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC86442819F6D65500853FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC86442F19F6D65500853FB2;
+			remoteInfo = "IT 4500 Temp Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC86443019F6D65500853FB2 /* IT 4500 Temp Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IT 4500 Temp Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC86443419F6D65500853FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC86443519F6D65500853FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC86443719F6D65500853FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC86443A19F6D65500853FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC86443C19F6D65500853FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC86443F19F6D65500853FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC86444519F6D65500853FB2 /* IT 4500 Temp ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IT 4500 Temp ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC86444A19F6D65500853FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC86444B19F6D65500853FB2 /* IT_4500_Temp_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IT_4500_Temp_ConverterTests.swift; sourceTree = "<group>"; };
+		BC86445519F6D6E600853FB2 /* IT 4500 Temp Converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "IT 4500 Temp Converter.entitlements"; sourceTree = "<group>"; };
+		BC86448F19F978A600853FB2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC86442D19F6D65500853FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC86449019F978A600853FB2 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC86444219F6D65500853FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC86442719F6D65500853FB2 = {
+			isa = PBXGroup;
+			children = (
+				BC86448F19F978A600853FB2 /* HealthKit.framework */,
+				BC86443219F6D65500853FB2 /* IT 4500 Temp Converter */,
+				BC86444819F6D65500853FB2 /* IT 4500 Temp ConverterTests */,
+				BC86443119F6D65500853FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC86443119F6D65500853FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC86443019F6D65500853FB2 /* IT 4500 Temp Converter.app */,
+				BC86444519F6D65500853FB2 /* IT 4500 Temp ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC86443219F6D65500853FB2 /* IT 4500 Temp Converter */ = {
+			isa = PBXGroup;
+			children = (
+				BC86445519F6D6E600853FB2 /* IT 4500 Temp Converter.entitlements */,
+				BC86443519F6D65500853FB2 /* AppDelegate.swift */,
+				BC86443719F6D65500853FB2 /* ViewController.swift */,
+				BC86443919F6D65500853FB2 /* Main.storyboard */,
+				BC86443C19F6D65500853FB2 /* Images.xcassets */,
+				BC86443E19F6D65500853FB2 /* LaunchScreen.xib */,
+				BC86443319F6D65500853FB2 /* Supporting Files */,
+			);
+			path = "IT 4500 Temp Converter";
+			sourceTree = "<group>";
+		};
+		BC86443319F6D65500853FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC86443419F6D65500853FB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC86444819F6D65500853FB2 /* IT 4500 Temp ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC86444B19F6D65500853FB2 /* IT_4500_Temp_ConverterTests.swift */,
+				BC86444919F6D65500853FB2 /* Supporting Files */,
+			);
+			path = "IT 4500 Temp ConverterTests";
+			sourceTree = "<group>";
+		};
+		BC86444919F6D65500853FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC86444A19F6D65500853FB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC86442F19F6D65500853FB2 /* IT 4500 Temp Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC86444F19F6D65500853FB2 /* Build configuration list for PBXNativeTarget "IT 4500 Temp Converter" */;
+			buildPhases = (
+				BC86442C19F6D65500853FB2 /* Sources */,
+				BC86442D19F6D65500853FB2 /* Frameworks */,
+				BC86442E19F6D65500853FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IT 4500 Temp Converter";
+			productName = "IT 4500 Temp Converter";
+			productReference = BC86443019F6D65500853FB2 /* IT 4500 Temp Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC86444419F6D65500853FB2 /* IT 4500 Temp ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC86445219F6D65500853FB2 /* Build configuration list for PBXNativeTarget "IT 4500 Temp ConverterTests" */;
+			buildPhases = (
+				BC86444119F6D65500853FB2 /* Sources */,
+				BC86444219F6D65500853FB2 /* Frameworks */,
+				BC86444319F6D65500853FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC86444719F6D65500853FB2 /* PBXTargetDependency */,
+			);
+			name = "IT 4500 Temp ConverterTests";
+			productName = "IT 4500 Temp ConverterTests";
+			productReference = BC86444519F6D65500853FB2 /* IT 4500 Temp ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC86442819F6D65500853FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Tyron Allen";
+				TargetAttributes = {
+					BC86442F19F6D65500853FB2 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4FNJNUQ3AD;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					BC86444419F6D65500853FB2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BC86442F19F6D65500853FB2;
+					};
+				};
+			};
+			buildConfigurationList = BC86442B19F6D65500853FB2 /* Build configuration list for PBXProject "IT 4500 Temp Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC86442719F6D65500853FB2;
+			productRefGroup = BC86443119F6D65500853FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC86442F19F6D65500853FB2 /* IT 4500 Temp Converter */,
+				BC86444419F6D65500853FB2 /* IT 4500 Temp ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC86442E19F6D65500853FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC86443B19F6D65500853FB2 /* Main.storyboard in Resources */,
+				BC86444019F6D65500853FB2 /* LaunchScreen.xib in Resources */,
+				BC86443D19F6D65500853FB2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC86444319F6D65500853FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC86442C19F6D65500853FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC86443819F6D65500853FB2 /* ViewController.swift in Sources */,
+				BC86443619F6D65500853FB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC86444119F6D65500853FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC86444C19F6D65500853FB2 /* IT_4500_Temp_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC86444719F6D65500853FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC86442F19F6D65500853FB2 /* IT 4500 Temp Converter */;
+			targetProxy = BC86444619F6D65500853FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC86443919F6D65500853FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC86443A19F6D65500853FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC86443E19F6D65500853FB2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC86443F19F6D65500853FB2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC86444D19F6D65500853FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC86444E19F6D65500853FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC86445019F6D65500853FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "IT 4500 Temp Converter/IT 4500 Temp Converter.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tyron Allen (BUNCBN22VP)";
+				INFOPLIST_FILE = "IT 4500 Temp Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC86445119F6D65500853FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "IT 4500 Temp Converter/IT 4500 Temp Converter.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tyron Allen (BUNCBN22VP)";
+				INFOPLIST_FILE = "IT 4500 Temp Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC86445319F6D65500853FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IT 4500 Temp ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IT 4500 Temp Converter.app/IT 4500 Temp Converter";
+			};
+			name = Debug;
+		};
+		BC86445419F6D65500853FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IT 4500 Temp ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IT 4500 Temp Converter.app/IT 4500 Temp Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC86442B19F6D65500853FB2 /* Build configuration list for PBXProject "IT 4500 Temp Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC86444D19F6D65500853FB2 /* Debug */,
+				BC86444E19F6D65500853FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC86444F19F6D65500853FB2 /* Build configuration list for PBXNativeTarget "IT 4500 Temp Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC86445019F6D65500853FB2 /* Debug */,
+				BC86445119F6D65500853FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC86445219F6D65500853FB2 /* Build configuration list for PBXNativeTarget "IT 4500 Temp ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC86445319F6D65500853FB2 /* Debug */,
+				BC86445419F6D65500853FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC86442819F6D65500853FB2 /* Project object */;
+}

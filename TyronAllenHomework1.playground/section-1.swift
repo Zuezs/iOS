@@ -2,7 +2,7 @@
 
 import UIKit
 
-let viewRect = CGRect(x: 0.0, y: 0.0, width: 320.0, height: 480.0)
+let viewRect = CGRect(x: 0.0, y: 0.0, width: 480.0, height: 480.0)
 let view = UIView(frame: viewRect)
 view.backgroundColor = UIColor(red:240.0, green:230.0, blue: 242.0, alpha:1.0)
 let subView = UIView(frame: CGRectZero)
