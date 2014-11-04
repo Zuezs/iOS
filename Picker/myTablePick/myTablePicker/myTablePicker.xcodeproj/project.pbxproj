@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCDE4FFE1A08820400918DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDE4FFD1A08820400918DDA /* AppDelegate.swift */; };
+		BCDE50031A08820400918DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDE50011A08820400918DDA /* Main.storyboard */; };
+		BCDE50051A08820400918DDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDE50041A08820400918DDA /* Images.xcassets */; };
+		BCDE50081A08820400918DDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDE50061A08820400918DDA /* LaunchScreen.xib */; };
+		BCDE50141A08820400918DDA /* myTablePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDE50131A08820400918DDA /* myTablePickerTests.swift */; };
+		BCDE50201A08839600918DDA /* MainTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDE501F1A08839600918DDA /* MainTableTableViewController.swift */; };
+		BCDE50221A0884E500918DDA /* MyOwnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDE50211A0884E500918DDA /* MyOwnTableViewCell.swift */; };
+		BCDE50241A0885B000918DDA /* arrayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDE50231A0885B000918DDA /* arrayData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCDE500E1A08820400918DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCDE4FF01A08820400918DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDE4FF71A08820400918DDA;
+			remoteInfo = myTablePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCDE4FF81A08820400918DDA /* myTablePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTablePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDE4FFC1A08820400918DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDE4FFD1A08820400918DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCDE50021A08820400918DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCDE50041A08820400918DDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCDE50071A08820400918DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCDE500D1A08820400918DDA /* myTablePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTablePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDE50121A08820400918DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDE50131A08820400918DDA /* myTablePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTablePickerTests.swift; sourceTree = "<group>"; };
+		BCDE501F1A08839600918DDA /* MainTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableTableViewController.swift; path = ../MainTableTableViewController.swift; sourceTree = "<group>"; };
+		BCDE50211A0884E500918DDA /* MyOwnTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOwnTableViewCell.swift; sourceTree = "<group>"; };
+		BCDE50231A0885B000918DDA /* arrayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arrayData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCDE4FF51A08820400918DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDE500A1A08820400918DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCDE4FEF1A08820400918DDA = {
+			isa = PBXGroup;
+			children = (
+				BCDE4FFA1A08820400918DDA /* myTablePicker */,
+				BCDE50101A08820400918DDA /* myTablePickerTests */,
+				BCDE4FF91A08820400918DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCDE4FF91A08820400918DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCDE4FF81A08820400918DDA /* myTablePicker.app */,
+				BCDE500D1A08820400918DDA /* myTablePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCDE4FFA1A08820400918DDA /* myTablePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BCDE4FFD1A08820400918DDA /* AppDelegate.swift */,
+				BCDE50011A08820400918DDA /* Main.storyboard */,
+				BCDE501F1A08839600918DDA /* MainTableTableViewController.swift */,
+				BCDE50231A0885B000918DDA /* arrayData.swift */,
+				BCDE50211A0884E500918DDA /* MyOwnTableViewCell.swift */,
+				BCDE50041A08820400918DDA /* Images.xcassets */,
+				BCDE50061A08820400918DDA /* LaunchScreen.xib */,
+				BCDE4FFB1A08820400918DDA /* Supporting Files */,
+			);
+			path = myTablePicker;
+			sourceTree = "<group>";
+		};
+		BCDE4FFB1A08820400918DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDE4FFC1A08820400918DDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCDE50101A08820400918DDA /* myTablePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCDE50131A08820400918DDA /* myTablePickerTests.swift */,
+				BCDE50111A08820400918DDA /* Supporting Files */,
+			);
+			path = myTablePickerTests;
+			sourceTree = "<group>";
+		};
+		BCDE50111A08820400918DDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDE50121A08820400918DDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCDE4FF71A08820400918DDA /* myTablePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDE50171A08820400918DDA /* Build configuration list for PBXNativeTarget "myTablePicker" */;
+			buildPhases = (
+				BCDE4FF41A08820400918DDA /* Sources */,
+				BCDE4FF51A08820400918DDA /* Frameworks */,
+				BCDE4FF61A08820400918DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myTablePicker;
+			productName = myTablePicker;
+			productReference = BCDE4FF81A08820400918DDA /* myTablePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCDE500C1A08820400918DDA /* myTablePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDE501A1A08820400918DDA /* Build configuration list for PBXNativeTarget "myTablePickerTests" */;
+			buildPhases = (
+				BCDE50091A08820400918DDA /* Sources */,
+				BCDE500A1A08820400918DDA /* Frameworks */,
+				BCDE500B1A08820400918DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCDE500F1A08820400918DDA /* PBXTargetDependency */,
+			);
+			name = myTablePickerTests;
+			productName = myTablePickerTests;
+			productReference = BCDE500D1A08820400918DDA /* myTablePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCDE4FF01A08820400918DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Tyron Allen";
+				TargetAttributes = {
+					BCDE4FF71A08820400918DDA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BCDE500C1A08820400918DDA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BCDE4FF71A08820400918DDA;
+					};
+				};
+			};
+			buildConfigurationList = BCDE4FF31A08820400918DDA /* Build configuration list for PBXProject "myTablePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCDE4FEF1A08820400918DDA;
+			productRefGroup = BCDE4FF91A08820400918DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCDE4FF71A08820400918DDA /* myTablePicker */,
+				BCDE500C1A08820400918DDA /* myTablePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCDE4FF61A08820400918DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDE50031A08820400918DDA /* Main.storyboard in Resources */,
+				BCDE50081A08820400918DDA /* LaunchScreen.xib in Resources */,
+				BCDE50051A08820400918DDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDE500B1A08820400918DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCDE4FF41A08820400918DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDE50221A0884E500918DDA /* MyOwnTableViewCell.swift in Sources */,
+				BCDE4FFE1A08820400918DDA /* AppDelegate.swift in Sources */,
+				BCDE50201A08839600918DDA /* MainTableTableViewController.swift in Sources */,
+				BCDE50241A0885B000918DDA /* arrayData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDE50091A08820400918DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDE50141A08820400918DDA /* myTablePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCDE500F1A08820400918DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCDE4FF71A08820400918DDA /* myTablePicker */;
+			targetProxy = BCDE500E1A08820400918DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCDE50011A08820400918DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDE50021A08820400918DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCDE50061A08820400918DDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDE50071A08820400918DDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCDE50151A08820400918DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCDE50161A08820400918DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCDE50181A08820400918DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myTablePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCDE50191A08820400918DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = myTablePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCDE501B1A08820400918DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myTablePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myTablePicker.app/myTablePicker";
+			};
+			name = Debug;
+		};
+		BCDE501C1A08820400918DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = myTablePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myTablePicker.app/myTablePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCDE4FF31A08820400918DDA /* Build configuration list for PBXProject "myTablePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDE50151A08820400918DDA /* Debug */,
+				BCDE50161A08820400918DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDE50171A08820400918DDA /* Build configuration list for PBXNativeTarget "myTablePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDE50181A08820400918DDA /* Debug */,
+				BCDE50191A08820400918DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCDE501A1A08820400918DDA /* Build configuration list for PBXNativeTarget "myTablePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDE501B1A08820400918DDA /* Debug */,
+				BCDE501C1A08820400918DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCDE4FF01A08820400918DDA /* Project object */;
+}
