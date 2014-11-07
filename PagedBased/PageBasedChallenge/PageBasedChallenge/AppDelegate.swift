@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MapKitChallenge
+//  PageBasedChallenge
 //
 //  Created by Tyron Allen on 11/6/14.
 //  Copyright (c) 2014 Tyron Allen. All rights reserved.

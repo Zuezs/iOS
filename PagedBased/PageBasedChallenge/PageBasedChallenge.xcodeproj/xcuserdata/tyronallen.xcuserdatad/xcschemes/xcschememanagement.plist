@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MapKitChallenge.xcscheme</key>
+		<key>PageBasedChallenge.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BCDE505F1A0BFAA600918DDA</key>
+		<key>BCDE508F1A0BFD8100918DDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BCDE50741A0BFAA600918DDA</key>
+		<key>BCDE50A81A0BFD8100918DDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

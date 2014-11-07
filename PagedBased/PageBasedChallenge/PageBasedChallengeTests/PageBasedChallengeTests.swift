@@ -1,6 +1,6 @@
 //
-//  MapKitChallengeTests.swift
-//  MapKitChallengeTests
+//  PageBasedChallengeTests.swift
+//  PageBasedChallengeTests
 //
 //  Created by Tyron Allen on 11/6/14.
 //  Copyright (c) 2014 Tyron Allen. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class MapKitChallengeTests: XCTestCase {
+class PageBasedChallengeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>08C4C13F-DA74-4DEB-BA17-D2DD2C7BDE8E</string>
+	<string>A3508654-D1FF-4A76-AFC8-09B13F004014</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MapKitChallenge</string>
+	<string>PageBasedChallenge</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>29141ED49FA00E765D7CA983BA681752CCE8F046</key>
 		<string>https://github.com/Zuezs/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MapKit/MapKitChallenge/MapKitChallenge.xcodeproj</string>
+	<string>PagedBased/PageBasedChallenge/PageBasedChallenge.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>29141ED49FA00E765D7CA983BA681752CCE8F046</key>
