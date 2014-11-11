@@ -22,6 +22,24 @@
             </objects>
             <point key="canvasLocation" x="377" y="-178"/>
         </scene>
+        <!--PageD View Controller-->
+        <scene sceneID="iLl-uU-9T5">
+            <objects>
+                <viewController storyboardIdentifier="PageD" id="vnl-Q4-ijC" customClass="PageDViewController" customModule="PageBasedChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZK7-5s-uQj"/>
+                        <viewControllerLayoutGuide type="bottom" id="urZ-3T-goG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cqK-xm-DRT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.97976920789999999" blue="0.20220761719999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U6m-4z-Nzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="587"/>
+        </scene>
         <!--PageA View Controller-->
         <scene sceneID="9rB-oe-7XZ">
             <objects>
@@ -47,6 +65,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ytg-RZ-zU8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1036" y="-570"/>
+        </scene>
+        <!--PageB View Controller-->
+        <scene sceneID="ygu-h0-d8j">
+            <objects>
+                <viewController storyboardIdentifier="Page B" id="2Bj-d1-1X1" customClass="PageBViewController" customModule="PageBasedChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m0w-PG-gnz"/>
+                        <viewControllerLayoutGuide type="bottom" id="6dq-Kx-OpL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aa2-65-t5A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page B" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVD-Rs-7e8">
+                                <rect key="frame" x="263" y="144" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24587489570000001" green="1" blue="0.1872344192" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgm-HJ-vrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="99"/>
+        </scene>
+        <!--PageC View Controller-->
+        <scene sceneID="Wr2-52-2CG">
+            <objects>
+                <viewController storyboardIdentifier="PageC" id="Epx-hU-idL" customClass="PageCViewController" customModule="PageBasedChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X6F-5y-HlM"/>
+                        <viewControllerLayoutGuide type="bottom" id="gCF-qS-FoW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CoK-VG-y3d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.072898963649999995" green="0.14860422479999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4m-pm-aWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="786"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
