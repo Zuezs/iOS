@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232BEBBA1A1ED5D500075DC7 /* dashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232BEBB71A1ED5D500075DC7 /* dashboardViewController.swift */; };
+		232BEBBB1A1ED5D500075DC7 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232BEBB81A1ED5D500075DC7 /* profileViewController.swift */; };
+		232BEBBC1A1ED5D500075DC7 /* stormTrooperHelmet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 232BEBB91A1ED5D500075DC7 /* stormTrooperHelmet.jpg */; };
+		232BEBBF1A1ED61A00075DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232BEBBD1A1ED61A00075DC7 /* Main.storyboard */; };
+		232BEBC21A1EDBDF00075DC7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232BEBC11A1EDBDF00075DC7 /* CloudKit.framework */; };
+		567AF6F71A3624B00029FB55 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AF6F61A3624B00029FB55 /* TeamData.swift */; };
+		567AF6F91A3625130029FB55 /* TeamDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AF6F81A3625130029FB55 /* TeamDataViewController.swift */; };
+		F2090B411A3A7E0400BA0E6E /* CloudKitHelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2090B401A3A7E0400BA0E6E /* CloudKitHelperDelegate.swift */; };
+		F21804371A2F867C00EEDB9E /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21804361A2F867C00EEDB9E /* CloudKitHelper.swift */; };
+		F243548B1A3775E800AD26CC /* badgeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F243548A1A3775E800AD26CC /* badgeIcon.png */; };
+		F243548D1A37BF4900AD26CC /* theDude2.png in Resources */ = {isa = PBXBuildFile; fileRef = F243548C1A37BF4900AD26CC /* theDude2.png */; };
+		F243548F1A37D2E300AD26CC /* badgeIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F243548E1A37D2E300AD26CC /* badgeIcon2.png */; };
+		F243549B1A37E7BF00AD26CC /* dashboard_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = F243549A1A37E7BF00AD26CC /* dashboard_grey.png */; };
+		F243549F1A37E8F900AD26CC /* team_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = F243549E1A37E8F900AD26CC /* team_grey.png */; };
+		F24354A11A37E94500AD26CC /* profile_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = F24354A01A37E94500AD26CC /* profile_grey.png */; };
+		F24E2AD11A38E6F5003ECCA2 /* ChallengeTeamSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24E2AD01A38E6F5003ECCA2 /* ChallengeTeamSearchViewController.swift */; };
+		F256BF891A35F39500C75418 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256BF881A35F39500C75418 /* SettingsTableViewController.swift */; };
+		F265796F1A38DB1B00E7E643 /* ChallengeTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265796E1A38DB1B00E7E643 /* ChallengeTeamViewController.swift */; };
+		F273C90F1A33988300D7B908 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F273C90E1A33988300D7B908 /* User.swift */; };
+		F28B00871A0A833800A5891F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28B00861A0A833800A5891F /* AppDelegate.swift */; };
+		F28B00901A0A833800A5891F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28B008F1A0A833800A5891F /* Images.xcassets */; };
+		F2D9CAEF1A3A112700609476 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D9CAEE1A3A112700609476 /* Team.swift */; };
+		F2ED615C1A38F0AA00A5277C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED615B1A38F0AA00A5277C /* TabBarController.swift */; };
+		F2ED615E1A38F27000A5277C /* HealthKitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED615D1A38F27000A5277C /* HealthKitData.swift */; };
+		F2ED61601A38F44400A5277C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2ED615F1A38F44400A5277C /* HealthKit.framework */; };
+		F2ED61621A393A7800A5277C /* DailyStepGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED61611A393A7800A5277C /* DailyStepGoalViewController.swift */; };
+		F2ED61651A394DCB00A5277C /* StepGoalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED61641A394DCB00A5277C /* StepGoalProtocol.swift */; };
+		F2F614B71A34E76800CB65E6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2F614B61A34E76800CB65E6 /* Settings.bundle */; };
+		F2F614B91A34E91C00CB65E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F614B81A34E91C00CB65E6 /* LoginViewController.swift */; };
+		F2F614BB1A34ED0300CB65E6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F614BA1A34ED0300CB65E6 /* logo.png */; };
+		F2F614BD1A34ED0B00CB65E6 /* runningmen.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F614BC1A34ED0B00CB65E6 /* runningmen.png */; };
+		F2F614BF1A34EFE800CB65E6 /* threeRunningMen.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F614BE1A34EFE800CB65E6 /* threeRunningMen.png */; };
+		F2F614C51A35020600CB65E6 /* gearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F614C41A35020600CB65E6 /* gearIcon.png */; };
+		F2F614C71A3506D100CB65E6 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F614C61A3506D100CB65E6 /* TeamViewController.swift */; };
+		F2F614C91A3509AA00CB65E6 /* JoinTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F614C81A3509AA00CB65E6 /* JoinTeamViewController.swift */; };
+		F2F614CB1A3513B100CB65E6 /* CreateTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F614CA1A3513B100CB65E6 /* CreateTeamViewController.swift */; };
+		F2F614CF1A351F1F00CB65E6 /* theDude.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F614CE1A351F1F00CB65E6 /* theDude.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		232BEBB71A1ED5D500075DC7 /* dashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dashboardViewController.swift; path = ../../FrontEnd/Dashboard/Dashboard/Dashboard/dashboardViewController.swift; sourceTree = "<group>"; };
+		232BEBB81A1ED5D500075DC7 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = profileViewController.swift; path = ../../FrontEnd/Dashboard/Dashboard/Dashboard/profileViewController.swift; sourceTree = "<group>"; };
+		232BEBB91A1ED5D500075DC7 /* stormTrooperHelmet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stormTrooperHelmet.jpg; path = ../../FrontEnd/Dashboard/Dashboard/Dashboard/stormTrooperHelmet.jpg; sourceTree = "<group>"; };
+		232BEBBE1A1ED61A00075DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../FrontEnd/Dashboard/Dashboard/Dashboard/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		232BEBC01A1ED96000075DC7 /* FitTogether.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FitTogether.entitlements; sourceTree = "<group>"; };
+		232BEBC11A1EDBDF00075DC7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		567AF6F61A3624B00029FB55 /* TeamData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamData.swift; sourceTree = "<group>"; };
+		567AF6F81A3625130029FB55 /* TeamDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDataViewController.swift; sourceTree = "<group>"; };
+		F2090B401A3A7E0400BA0E6E /* CloudKitHelperDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelperDelegate.swift; sourceTree = "<group>"; };
+		F21804361A2F867C00EEDB9E /* CloudKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		F243548A1A3775E800AD26CC /* badgeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badgeIcon.png; sourceTree = "<group>"; };
+		F243548C1A37BF4900AD26CC /* theDude2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theDude2.png; sourceTree = "<group>"; };
+		F243548E1A37D2E300AD26CC /* badgeIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badgeIcon2.png; sourceTree = "<group>"; };
+		F243549A1A37E7BF00AD26CC /* dashboard_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard_grey.png; sourceTree = "<group>"; };
+		F243549E1A37E8F900AD26CC /* team_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team_grey.png; sourceTree = "<group>"; };
+		F24354A01A37E94500AD26CC /* profile_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_grey.png; sourceTree = "<group>"; };
+		F24E2AD01A38E6F5003ECCA2 /* ChallengeTeamSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTeamSearchViewController.swift; sourceTree = "<group>"; };
+		F256BF881A35F39500C75418 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		F265796E1A38DB1B00E7E643 /* ChallengeTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTeamViewController.swift; sourceTree = "<group>"; };
+		F273C90E1A33988300D7B908 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F28B00811A0A833800A5891F /* fittogethertwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fittogethertwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28B00851A0A833800A5891F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28B00861A0A833800A5891F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F28B008F1A0A833800A5891F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F28B009D1A0A833800A5891F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28B009E1A0A833800A5891F /* FitTogetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTogetherTests.swift; sourceTree = "<group>"; };
+		F2D9CAEE1A3A112700609476 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		F2ED615B1A38F0AA00A5277C /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F2ED615D1A38F27000A5277C /* HealthKitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitData.swift; sourceTree = "<group>"; };
+		F2ED615F1A38F44400A5277C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		F2ED61611A393A7800A5277C /* DailyStepGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyStepGoalViewController.swift; sourceTree = "<group>"; };
+		F2ED61641A394DCB00A5277C /* StepGoalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepGoalProtocol.swift; sourceTree = "<group>"; };
+		F2F614B61A34E76800CB65E6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F2F614B81A34E91C00CB65E6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F2F614BA1A34ED0300CB65E6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F2F614BC1A34ED0B00CB65E6 /* runningmen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runningmen.png; sourceTree = "<group>"; };
+		F2F614BE1A34EFE800CB65E6 /* threeRunningMen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = threeRunningMen.png; sourceTree = "<group>"; };
+		F2F614C41A35020600CB65E6 /* gearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gearIcon.png; sourceTree = "<group>"; };
+		F2F614C61A3506D100CB65E6 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		F2F614C81A3509AA00CB65E6 /* JoinTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTeamViewController.swift; sourceTree = "<group>"; };
+		F2F614CA1A3513B100CB65E6 /* CreateTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTeamViewController.swift; sourceTree = "<group>"; };
+		F2F614CE1A351F1F00CB65E6 /* theDude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theDude.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28B007E1A0A833800A5891F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232BEBC21A1EDBDF00075DC7 /* CloudKit.framework in Frameworks */,
+				F2ED61601A38F44400A5277C /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2090B421A3A8F0300BA0E6E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F256BF851A35EAB300C75418 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				F243548E1A37D2E300AD26CC /* badgeIcon2.png */,
+				F243548A1A3775E800AD26CC /* badgeIcon.png */,
+			);
+			name = Badges;
+			sourceTree = "<group>";
+		};
+		F256BF8A1A35F3A500C75418 /* TableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F256BF881A35F39500C75418 /* SettingsTableViewController.swift */,
+			);
+			name = TableViewControllers;
+			sourceTree = "<group>";
+		};
+		F267EFB81A3613F8004CCE9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F21804361A2F867C00EEDB9E /* CloudKitHelper.swift */,
+				F273C90E1A33988300D7B908 /* User.swift */,
+				567AF6F61A3624B00029FB55 /* TeamData.swift */,
+				F2ED615D1A38F27000A5277C /* HealthKitData.swift */,
+				F2D9CAEE1A3A112700609476 /* Team.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F28B00781A0A833800A5891F = {
+			isa = PBXGroup;
+			children = (
+				F2ED615F1A38F44400A5277C /* HealthKit.framework */,
+				F2F614B61A34E76800CB65E6 /* Settings.bundle */,
+				232BEBC11A1EDBDF00075DC7 /* CloudKit.framework */,
+				F28B00831A0A833800A5891F /* FitTogether */,
+				F28B009B1A0A833800A5891F /* FitTogetherTests */,
+				F28B00821A0A833800A5891F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28B00821A0A833800A5891F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28B00811A0A833800A5891F /* fittogethertwo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28B00831A0A833800A5891F /* FitTogether */ = {
+			isa = PBXGroup;
+			children = (
+				F2090B421A3A8F0300BA0E6E /* Utilities */,
+				F267EFB81A3613F8004CCE9F /* Models */,
+				F2F614B31A34E6F400CB65E6 /* Assets */,
+				F2F614B11A34E6B700CB65E6 /* ViewControllers */,
+				232BEBC01A1ED96000075DC7 /* FitTogether.entitlements */,
+				232BEBBD1A1ED61A00075DC7 /* Main.storyboard */,
+				F28B00861A0A833800A5891F /* AppDelegate.swift */,
+				F28B008F1A0A833800A5891F /* Images.xcassets */,
+				F28B00841A0A833800A5891F /* Supporting Files */,
+			);
+			path = FitTogether;
+			sourceTree = "<group>";
+		};
+		F28B00841A0A833800A5891F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28B00851A0A833800A5891F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F28B009B1A0A833800A5891F /* FitTogetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				F28B009E1A0A833800A5891F /* FitTogetherTests.swift */,
+				F28B009C1A0A833800A5891F /* Supporting Files */,
+			);
+			path = FitTogetherTests;
+			sourceTree = "<group>";
+		};
+		F28B009C1A0A833800A5891F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28B009D1A0A833800A5891F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2ED61631A394DB000A5277C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED61641A394DCB00A5277C /* StepGoalProtocol.swift */,
+				F2090B401A3A7E0400BA0E6E /* CloudKitHelperDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		F2F614B11A34E6B700CB65E6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED61631A394DB000A5277C /* Delegates */,
+				F256BF8A1A35F3A500C75418 /* TableViewControllers */,
+				232BEBB71A1ED5D500075DC7 /* dashboardViewController.swift */,
+				232BEBB81A1ED5D500075DC7 /* profileViewController.swift */,
+				F2F614B81A34E91C00CB65E6 /* LoginViewController.swift */,
+				F2F614C61A3506D100CB65E6 /* TeamViewController.swift */,
+				F2F614C81A3509AA00CB65E6 /* JoinTeamViewController.swift */,
+				F2F614CA1A3513B100CB65E6 /* CreateTeamViewController.swift */,
+				567AF6F81A3625130029FB55 /* TeamDataViewController.swift */,
+				F265796E1A38DB1B00E7E643 /* ChallengeTeamViewController.swift */,
+				F24E2AD01A38E6F5003ECCA2 /* ChallengeTeamSearchViewController.swift */,
+				F2ED615B1A38F0AA00A5277C /* TabBarController.swift */,
+				F2ED61611A393A7800A5277C /* DailyStepGoalViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F2F614B31A34E6F400CB65E6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F256BF851A35EAB300C75418 /* Badges */,
+				F2F614B51A34E71300CB65E6 /* Icons */,
+				F2F614B41A34E70D00CB65E6 /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F2F614B41A34E70D00CB65E6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F243548C1A37BF4900AD26CC /* theDude2.png */,
+				F2F614CE1A351F1F00CB65E6 /* theDude.png */,
+				F2F614BE1A34EFE800CB65E6 /* threeRunningMen.png */,
+				F2F614BC1A34ED0B00CB65E6 /* runningmen.png */,
+				F2F614BA1A34ED0300CB65E6 /* logo.png */,
+				232BEBB91A1ED5D500075DC7 /* stormTrooperHelmet.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F2F614B51A34E71300CB65E6 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F24354A01A37E94500AD26CC /* profile_grey.png */,
+				F243549E1A37E8F900AD26CC /* team_grey.png */,
+				F243549A1A37E7BF00AD26CC /* dashboard_grey.png */,
+				F2F614C41A35020600CB65E6 /* gearIcon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28B00801A0A833800A5891F /* fittogethertwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28B00A21A0A833800A5891F /* Build configuration list for PBXNativeTarget "fittogethertwo" */;
+			buildPhases = (
+				F28B007D1A0A833800A5891F /* Sources */,
+				F28B007E1A0A833800A5891F /* Frameworks */,
+				F28B007F1A0A833800A5891F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fittogethertwo;
+			productName = FitTogether;
+			productReference = F28B00811A0A833800A5891F /* fittogethertwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28B00791A0A833800A5891F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Fit Together";
+				TargetAttributes = {
+					F28B00801A0A833800A5891F = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4FNJNUQ3AD;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F28B007C1A0A833800A5891F /* Build configuration list for PBXProject "fittogethertwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F28B00781A0A833800A5891F;
+			productRefGroup = F28B00821A0A833800A5891F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28B00801A0A833800A5891F /* fittogethertwo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28B007F1A0A833800A5891F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243548B1A3775E800AD26CC /* badgeIcon.png in Resources */,
+				F243548D1A37BF4900AD26CC /* theDude2.png in Resources */,
+				232BEBBC1A1ED5D500075DC7 /* stormTrooperHelmet.jpg in Resources */,
+				F2F614CF1A351F1F00CB65E6 /* theDude.png in Resources */,
+				F2F614BD1A34ED0B00CB65E6 /* runningmen.png in Resources */,
+				F2F614BB1A34ED0300CB65E6 /* logo.png in Resources */,
+				F24354A11A37E94500AD26CC /* profile_grey.png in Resources */,
+				F2F614C51A35020600CB65E6 /* gearIcon.png in Resources */,
+				F243549B1A37E7BF00AD26CC /* dashboard_grey.png in Resources */,
+				F243548F1A37D2E300AD26CC /* badgeIcon2.png in Resources */,
+				F2F614B71A34E76800CB65E6 /* Settings.bundle in Resources */,
+				F28B00901A0A833800A5891F /* Images.xcassets in Resources */,
+				F243549F1A37E8F900AD26CC /* team_grey.png in Resources */,
+				232BEBBF1A1ED61A00075DC7 /* Main.storyboard in Resources */,
+				F2F614BF1A34EFE800CB65E6 /* threeRunningMen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28B007D1A0A833800A5891F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F614B91A34E91C00CB65E6 /* LoginViewController.swift in Sources */,
+				F2090B411A3A7E0400BA0E6E /* CloudKitHelperDelegate.swift in Sources */,
+				F2ED615C1A38F0AA00A5277C /* TabBarController.swift in Sources */,
+				F2D9CAEF1A3A112700609476 /* Team.swift in Sources */,
+				F2ED61651A394DCB00A5277C /* StepGoalProtocol.swift in Sources */,
+				F28B00871A0A833800A5891F /* AppDelegate.swift in Sources */,
+				232BEBBA1A1ED5D500075DC7 /* dashboardViewController.swift in Sources */,
+				F24E2AD11A38E6F5003ECCA2 /* ChallengeTeamSearchViewController.swift in Sources */,
+				F265796F1A38DB1B00E7E643 /* ChallengeTeamViewController.swift in Sources */,
+				567AF6F91A3625130029FB55 /* TeamDataViewController.swift in Sources */,
+				F256BF891A35F39500C75418 /* SettingsTableViewController.swift in Sources */,
+				F21804371A2F867C00EEDB9E /* CloudKitHelper.swift in Sources */,
+				F2ED61621A393A7800A5277C /* DailyStepGoalViewController.swift in Sources */,
+				F273C90F1A33988300D7B908 /* User.swift in Sources */,
+				F2F614CB1A3513B100CB65E6 /* CreateTeamViewController.swift in Sources */,
+				F2F614C91A3509AA00CB65E6 /* JoinTeamViewController.swift in Sources */,
+				F2ED615E1A38F27000A5277C /* HealthKitData.swift in Sources */,
+				232BEBBB1A1ED5D500075DC7 /* profileViewController.swift in Sources */,
+				567AF6F71A3624B00029FB55 /* TeamData.swift in Sources */,
+				F2F614C71A3506D100CB65E6 /* TeamViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		232BEBBD1A1ED61A00075DC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232BEBBE1A1ED61A00075DC7 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28B00A01A0A833800A5891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F28B00A11A0A833800A5891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28B00A31A0A833800A5891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitTogether/FitTogether.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FitTogether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = fittogethertwo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F28B00A41A0A833800A5891F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitTogether/FitTogether.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FitTogether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = fittogethertwo;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28B007C1A0A833800A5891F /* Build configuration list for PBXProject "fittogethertwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28B00A01A0A833800A5891F /* Debug */,
+				F28B00A11A0A833800A5891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28B00A21A0A833800A5891F /* Build configuration list for PBXNativeTarget "fittogethertwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28B00A31A0A833800A5891F /* Debug */,
+				F28B00A41A0A833800A5891F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28B00791A0A833800A5891F /* Project object */;
+}

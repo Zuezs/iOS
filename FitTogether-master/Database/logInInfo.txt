@@ -1,0 +1,36 @@
+Fit Together 
+
+DB Access: 
+
+	IP Address: 104.131.104.20
+	Username: FitTogetherDev
+	Pass: teamBravo
+	DB Name: fitTogether
+
+To Access a test database:
+
+	Username: testUser
+	Pass: woahDude
+	Table Name: person
+	DB Name: testDB
+
+	person has two fields called name and age.
+	It has some random data in there if you want to test calls to the DB.
+	still working on getting the POST data based on your mobile device requests.
+
+	To write a URL request test in an app you can send a get request for one of the following names,
+	and it will return JSON encoded data with name as a key and age as the data.
+
+	104.131.104.20/pages/testDB/
+
+	+-------------------+------+
+	| name              | age  |
+	+-------------------+------+
+	| Matt W            |   22 |
+	| John Dude         |   99 |
+	| Geroge Washington |  100 |
+	| Superman          |   70 |
+	| Iron Man          |    2 |
+	+-------------------+------+
+
+	104.131.104.20/pages/testDB/
